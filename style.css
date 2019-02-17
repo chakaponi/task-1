@@ -188,7 +188,6 @@ details[open] .large-text-border::after {
 
 .site-container {
 	margin-top: 60px;
-	margin-bottom: 60px;
 }
 
 .social-button {
@@ -245,7 +244,7 @@ details[open] .large-text-border::after {
 	}
 
 	.site-container {
-		margin: 80px 0;
+		margin-top: 80px;
 	}
 
 	.site-image {
