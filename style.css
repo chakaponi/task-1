@@ -1,3 +1,49 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,footer,header,main,section,summary{display:block}a{background-color:transparent}a:active,a:hover{outline:0}img{border:0}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;resize:none;}
+
+* {
+    box-sizing: border-box
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.button {
+    display: inline-block;
+    padding: 9px 15px;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input.button {
+    -webkit-appearance: button
+}
+
+.input {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px 10px 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'PT Sans', sans-serif;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+.input::-webkit-input-placeholder,.select::-webkit-input-placeholder {
+	font-size: 16px;
+	color: #000;
+	line-height: 20px;
+	font-family: 'PT Sans', sans-serif;
+	opacity: 0.3;
+}
+
 body {
 	font-size: 14px;
 	line-height: 20px;
