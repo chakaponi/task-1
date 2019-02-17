@@ -108,6 +108,7 @@ details[open] .large-text-border::after {
 }
 
 .container {
+	max-width: 700px;
 	padding: 52px 0;
 	margin: 0 20px;
 	text-align: center;
@@ -232,11 +233,15 @@ details[open] .large-text-border::after {
 	}
 }
 
+@media (min-width: 780px) {
+	.container {
+		margin: 0 auto;
+	}
+}
+
 @media (min-width: 1000px) {
 	.container {
-		max-width: 700px;
 		padding: 100px 0;
-		margin: 0 auto;
 	}
 
 	.site-container {
