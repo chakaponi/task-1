@@ -195,6 +195,10 @@ details[open] .large-text-border::after {
 	margin-top: 60px;
 }
 
+#Contact .typesetting-1 {
+	opacity: 1;
+}
+
 .social-button {
 	display: flex;
 	justify-content: center;
