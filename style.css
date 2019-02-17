@@ -87,7 +87,6 @@ details[open] .large-text-border::after {
 
 .form {
 	display: grid;
-	padding-top: 20px;
 	grid-auto-columns: 1fr;
 	grid-gap: 16px;
 	grid-template-areas: "name" "email" "message" "upload" "submit";
@@ -109,10 +108,6 @@ details[open] .large-text-border::after {
 	padding: 52px 0;
 	margin: 0 20px;
 	text-align: center;
-}
-
-.w-form {
-    margin-top: 20px;
 }
 
 .main-button {
@@ -229,11 +224,6 @@ details[open] .large-text-border::after {
 		width: 250px;
 		height: 250px;
 	}
-
-	.form {
-		padding-top: 0;
-		grid-template-areas: "name email" "message message" "upload upload" "submit submit";
-	}
 }
 
 @media (min-width: 601px) {
@@ -268,12 +258,10 @@ details[open] .large-text-border::after {
 		margin-bottom: 36px;
 	}
 
-	.w-form {
-	    margin-top: 40px;
-	}
-
 	.form {
+		margin-top: 40px;
 		grid-gap: 20px;
+		grid-template-areas: "name email" "message message" "upload upload" "submit submit";
 	}
 }
 
