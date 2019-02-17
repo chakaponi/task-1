@@ -230,14 +230,16 @@ details[open] .large-text-border::after {
 		height: 250px;
 	}
 
-	.heading {
-		font-size: 40px;
-		line-height: 44px;
-	}
-
 	.form {
 		padding-top: 0;
 		grid-template-areas: "name email" "message message" "upload upload" "submit submit";
+	}
+}
+
+@media (min-width: 601px) {
+	.heading {
+		font-size: 40px;
+		line-height: 44px;
 	}
 }
 
