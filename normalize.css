@@ -2,8 +2,6 @@
 
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -16,47 +14,18 @@ img {
 .w-button {
     display: inline-block;
     padding: 9px 15px;
-    background-color: #3898EC;
     color: white;
     border: 0;
     line-height: inherit;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 0
 }
 
 input.w-button {
     -webkit-appearance: button
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
-    margin-bottom: 10px
-}
-
-h1 {
-    font-size: 38px;
-    line-height: 44px;
-}
-
-h2 {
-    font-size: 32px;
-    line-height: 36px;
-    margin-top: 20px
-}
-
-h3 {
-    font-size: 24px;
-    line-height: 30px;
-    margin-top: 20px
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 10px
-}
-
-.w-input,.w-select {
+.w-input {
     display: block;
     width: 100%;
     height: 36px;
