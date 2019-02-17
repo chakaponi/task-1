@@ -114,6 +114,10 @@ details[open] .large-text-border::after {
 	text-align: center;
 }
 
+.w-form {
+    margin-top: 20px;
+}
+
 .main-button {
 	width: 280px;
 	height: 52px;
@@ -255,6 +259,10 @@ details[open] .large-text-border::after {
 		width: 340px;
 		height: 340px;
 		margin-bottom: 36px;
+	}
+
+	.w-form {
+	    margin-top: 40px;
 	}
 
 	.form {
